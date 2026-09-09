@@ -59,7 +59,11 @@ class _HomeScreenState extends State<HomeScreen> {
             Container(
               width: 300,
               height: 100,
-              color: Colors.green,
+              decoration: BoxDecoration(
+                color: Colors.green,
+                borderRadius: BorderRadius.circular(10),
+              ),
+    
               alignment: Alignment.center,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -93,7 +97,10 @@ class _HomeScreenState extends State<HomeScreen> {
             Container(
               width: 300,
               height: 100,
-              color: Colors.blue,
+              decoration: BoxDecoration(
+                color: Colors.blue,
+                borderRadius: BorderRadius.circular(10),
+              ),
               alignment: Alignment.center,
               child: Text(
                 'Counter: $counter',
@@ -110,7 +117,10 @@ class _HomeScreenState extends State<HomeScreen> {
             Container(
               width: 300,
               height: 100,
-              color: Colors.red,
+              decoration: BoxDecoration(
+                color: Colors.red,
+                borderRadius: BorderRadius.circular(10),
+              ),
               alignment: Alignment.center,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
